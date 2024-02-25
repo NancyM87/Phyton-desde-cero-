@@ -106,7 +106,7 @@ match operacion:
         print(f'El exponente es:{resp}')
     case 6:
         resp=round(n1//n2,2)
-        print(f'La división fllor es:{resp}')
+        print(f'La división floor es:{resp}')
     case defaul:
         print('Por favor vuelva a ejecutar la calculadora')
 
