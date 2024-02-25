@@ -77,29 +77,36 @@ print("3- Multiplicación.")
 print("4- División.")
 print("5- Exponencial.")
 print("6- Floor.")
-operacion=int(input("Seleccione una opción:"))
+operacion=int(input("Seleccione un número:"))
+print("1- Suma.")
+print("2- Resta.")
+print("3- Multiplicación.")
+print("4- División.")
+print("5- Exponencial.")
+print("6- Floor.")
+operacion=int(input("Seleccione una operación:"))
 n1=int(input("Ingresa el valor del numero 1: "))
 n2=int(input("Ingresa el valor del numero 2: "))
-operacion=int(input("Seleccione una operación:"))
+
 match operacion:
     case 1:
         resp=round(n1+n2,2)
-        print(resp)
+        print(f'La suma es:{resp}')
     case 2:
         resp=round(n1-n2,2)
-        print(resp)
+        print(f'LA resta es:{resp}')
     case 3:
         resp=round(n1*n2,2)
-        print(resp)
+        print(f'La mulltiplicación es:{resp}')
     case 4:
         resp=round(n1/n2,2)
-        print(resp)
+        print(f'La división es:{resp}')
     case 5:
         resp=round(n1**n2,2)
-        print(resp)
+        print(f'El exponente es:{resp}')
     case 6:
         resp=round(n1//n2,2)
-        print(resp)
+        print(f'La división fllor es:{resp}')
     case defaul:
-        print('Opción inválida.')
+        print('Por favor vuelva a ejecutar la calculadora')
 
