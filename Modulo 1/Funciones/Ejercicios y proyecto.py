@@ -7,4 +7,14 @@ def aniadir(color):
     colores.insert(0, color)
 aniadir(input("Ingrese cualquier color:" "\n"))
 print(f"El color {colores} fue agredado correctamente ")
-
+'''
+2. Encuentra un posible error en esta función:
+def saludar()
+    nombre = input("Introduzca su nombre, por favor\n")
+    print(f"¡Muy buenas, {nombre}!")
+'''
+def saludar():
+    nombre = input("Introduzca su nombre, por favor\n")
+    print(f"¡Muy buenas, {nombre}!")
+print(saludar())
+    
