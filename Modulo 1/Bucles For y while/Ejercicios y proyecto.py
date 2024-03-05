@@ -118,6 +118,7 @@ Requisitos del proyecto
     *Finalmente, se le debe presentar el ticket (imprimido en la consola) con el total gastado, el cambio y todos los elementos que se han añadido al pedido, pizza, ingredientes extra y precios.
 '''
 print(" ->PIZZERIA TODO RICO<-")
+
 dinero=float(input('Introduzca la cantidad de su dinero:'))
 dinero_disponible=dinero
 total=0
@@ -130,7 +131,7 @@ salami=10.0
 champiniones=6.0
 chorizo=8.0
 
-#Selección de ingredientes
+#Selección de ingredientes 
 seleccion=int(input('Seleccione algún ingrediente extra:'))
 match seleccion:
     case 1:
@@ -173,7 +174,6 @@ match seleccion:
         dinero-=chorizo
         total+=chorizo
         print(f'Total {chorizo}$')       
-        print(f"Le quedan {round(dinero,2)}$.")
         lista_ingredientes.append(f"chorizo - {chorizo}$")
     case 7:
         print("Listo,no se agrega ningún ingrediente extra")
