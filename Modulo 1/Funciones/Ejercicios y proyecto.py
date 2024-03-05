@@ -20,7 +20,7 @@ print(saludar())
 
         #####PROYECTO FINAL######
 # Se da un título a la calculadora.
-print("--- CALCULADORA OPCIONAL ---")
+print("--- CALCULADORA MEJORADA ---")
 
 # Funciones de calculadora
 # Suma
