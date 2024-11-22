@@ -1,4 +1,4 @@
-'''
+''' Símbolo para comentar varias lineas
 3.4.11   LAB   Los fundamentos de las listas: los Beatles
 Escenario
 Los Beatles fueron uno de los grupos de música más populares de la década de 1960 y la banda más vendida en la historia. Algunas personas los consideran el acto más influyente de la era del rock. De hecho, se incluyeron en la compilación de la revista Time de las 100 personas más influyentes del siglo XX.
